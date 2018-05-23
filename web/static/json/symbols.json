@@ -1,0 +1,37 @@
+{
+  "symbol":[
+	{"name":"minSP","price":50,"step":0.25,"type":0,"symbolName":"ESZ15.CME"},
+	{"name":"NSDQ","price":20,"step":0.25,"type":0,"symbolName":"NQZ15.CME"},
+    {"name":"Dow Jones","price":5,"step":1,"type":0,"symbolName":"DIA"},
+	{"name":"DAX","price":25,"step":0.50,"type":0,"symbolName":"^GDAXI"},
+	{"name":"GOLD","price":100,"step":0.01,"type":0,"symbolName":"GCV15.CMX"},
+	{"name":"C.OIL","price":500,"step":0.01,"type":0,"symbolName":"CLX15.NYM"},
+    {"name":"USDIndex","price":1000,"step":0.005,"type":0,"symbolName":"DX-Y.NYB"},
+	{"name":"EUR/USD","price":100000,"step":0.00001,"type":1,"symbolName":"EURUSD"},
+	{"name":"USD/JPY","price":1000,"step":0.001,"type":1,"symbolName":"USDJPY"},
+	{"name":"USD/CAD","price":100000,"step":0.00001,"type":1,"symbolName":"USDCAD"},
+	{"name":"GBP/USD","price":100000,"step":0.00001,"type":1,"symbolName":"GBPUSD"},
+	{"name":"AUD/USD","price":100000,"step":0.00001,"type":1,"symbolName":"AUDUSD"},
+	{"name":"NZD/USD","price":100000,"step":0.00001,"type":1,"symbolName":"NZDUSD"},
+	{"name":"USD/CHF","price":100000,"step":0.00001,"type":1,"symbolName":"USDCHF"},
+	{"name":"USD/ILS","price":100000,"step":0.00001,"type":1,"symbolName":"USDILS"},
+	{"name":"EUR/AUD","price":100000,"step":0.00001,"type":1,"symbolName":"EURAUD"},
+	{"name":"EUR/NZD","price":100000,"step":0.00001,"type":1,"symbolName":"EURNZD"},
+	{"name":"EUR/CHF","price":100000,"step":0.00001,"type":1,"symbolName":"EURCHF"},
+	{"name":"EUR/JPY","price":1000,"step":0.001,"type":1,"symbolName":"EURJPY"},
+	{"name":"EUR/CAD","price":100000,"step":0.00001,"type":1,"symbolName":"EURCAD"},
+	{"name":"EUR/GBP","price":100000,"step":0.00001,"type":1,"symbolName":"EURGBP"},
+	{"name":"GBP/AUD","price":100000,"step":0.0001,"type":1,"symbolName":"GBPAUD"},
+	{"name":"GBP/JPY","price":1000,"step":0.001,"type":1,"symbolName":"GBPJPY"},
+	{"name":"GBP/NZD","price":100000,"step":0.00001,"type":1,"symbolName":"GBPNZD"},
+    {"name":"GBP/CHF","price":100000,"step":0.00001,"type":1,"symbolName":"GBPCHF"},
+	{"name":"AUD/NZD","price":100000,"step":0.00001,"type":1,"symbolName":"AUDNZD"},
+	{"name":"AUD/CAD","price":100000,"step":0.00001,"type":1,"symbolName":"AUDCAD"},
+    {"name":"AUD/CHF","price":100000,"step":0.00001,"type":1,"symbolName":"AUDCHF"},
+	{"name":"NZD/JPY","price":1000,"step":0.001,"type":1,"symbolName":"NZDJPY"},
+	{"name":"NZD/CAD","price":100000,"step":0.00001,"type":1,"symbolName":"NZDCAD"},
+	{"name":"CAD/JPY","price":1000,"step":0.001,"type":1,"symbolName":"CADJPY"},
+	{"name":"CHF/JPY","price":1000,"step":0.001,"type":1,"symbolName":"CHFJPY"}
+
+]
+    }
