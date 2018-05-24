@@ -30,7 +30,7 @@ except ImportError:
 #
 # - https://wiki.mozilla.org/Security/Server_Side_TLS
 # - https://www.ssllabs.com/projects/best-practices/index.html
-# - https://hynek.me/articles/hardening-your-web-servers-ssl-ciphers/
+# - https://hynek.me/articles/hardening-your-web_v0-servers-ssl-ciphers/
 #
 # The general intent is:
 # - Prefer cipher suites that offer perfect forward secrecy (DHE/ECDHE),
