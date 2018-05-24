@@ -1,14 +1,21 @@
+application: hello-205013
+version: 2
 runtime: python27
 api_version: 1
 threadsafe: yes
 
 handlers:
+
+- url: /assets
+  static_dir: web/assets
+  application_readable: true
+
 - url: /
   script: test.app
 
 - url: /test
   script: web.pages.index.app
-  
+
 libraries:
 - name: webapp2
   version: "2.5.2"
