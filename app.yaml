@@ -8,10 +8,28 @@ handlers:
   static_dir: web/assets
   application_readable: true
 
-- url: /
-  script: test.app
+- url: /table.html
+  script: web.pages.table.app
 
-- url: /test
+- url: /index.html
+  script: web.pages.home.app
+
+- url: /ui-elements.html
+  script: web.pages.ui-elements.app
+
+- url: /chart.html
+  script: web.pages.chart.app
+
+- url: /tab-panel.html
+  script: web.pages.tab-panel.app
+
+- url: /form.html
+  script: web.pages.form.app
+
+- url: /empty.html
+  script: web.pages.empty.app
+
+- url: /
   script: web.pages.index.app
 
 libraries:

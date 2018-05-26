@@ -4,13 +4,13 @@ from google.appengine.ext.webapp import template
 import webapp2
 
 
-class IndexHandler(webapp2.RequestHandler):
+class TableHandler(webapp2.RequestHandler):
     def get(self):
         template_params = {}
-        html = template.render("web/index.html", template_params)
+        html = template.render("web/table.html", template_params)
         self.response.write(html)
 
 app = webapp2.WSGIApplication([
-    ('/', IndexHandler)
+    ('/table.html', TableHandler)
 ], debug=True)
 
