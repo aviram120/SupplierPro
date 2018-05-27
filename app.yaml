@@ -29,6 +29,9 @@ handlers:
 - url: /empty.html
   script: web.pages.empty.app
 
+- url: /insertUser
+  script: web.pages.insertUser.app
+
 - url: /
   script: web.pages.index.app
 
